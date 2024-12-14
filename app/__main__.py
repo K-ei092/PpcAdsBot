@@ -7,13 +7,13 @@ from aiogram import Bot, Dispatcher
 from aiogram.client.default import DefaultBotProperties
 from aiogram_dialog import setup_dialogs
 
-from app.dialogs.main_dialog import main_dialog
+from dialogs.main_dialog import main_dialog
 
-from app.dialogs.handlers import isSubscriber_handlers, main_handlers, other_handlers
+from dialogs.handlers import isSubscriber_handlers, main_handlers, other_handlers
 
-from app.keyboards.main_menu import set_main_menu
+from keyboards.main_menu import set_main_menu
 
-from app.configuration.config import ConfigBot, load_config_bot
+from configuration.config import ConfigBot, load_config_bot
 
 
 # Инициализируем логгер
