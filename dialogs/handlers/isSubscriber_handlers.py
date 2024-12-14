@@ -1,7 +1,7 @@
 from aiogram import Router
 from aiogram.types import Message
-from app.filters.filters import IsSubscriber, IsPrivatChat
-from app.lexicon.lexicon import LEXICON
+from filters.filters import IsSubscriber, IsPrivatChat
+from lexicon.lexicon import LEXICON
 
 router = Router()
 

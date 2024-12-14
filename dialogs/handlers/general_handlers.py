@@ -6,9 +6,9 @@ from aiogram_dialog.widgets.input import ManagedTextInput, MessageInput
 from aiogram_dialog import DialogManager, ShowMode
 from aiogram_dialog.widgets.kbd import ManagedRadio, Button
 
-from app.lexicon.lexicon import LEXICON
+from lexicon.lexicon import LEXICON
 
-from app.parser.adjuster import get_analysis
+from parser.adjuster import get_analysis
 
 logger = logging.getLogger(__name__)
 

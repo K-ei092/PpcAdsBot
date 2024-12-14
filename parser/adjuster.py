@@ -1,6 +1,6 @@
-from app.parser.file_generetor import FileGenerator
+from parser.file_generetor import FileGenerator
 
-from app.parser.parser_XMLRiver import ParserClient
+from parser.parser_XMLRiver import ParserClient
 
 
 def get_analysis(advertising_seo, input_requests, input_region):

@@ -1,7 +1,7 @@
 from aiogram import Router
 from aiogram.types import Message
 
-from app.filters.filters import IsPrivatChat, IsSubscriber
+from filters.filters import IsPrivatChat, IsSubscriber
 
 router = Router()
 

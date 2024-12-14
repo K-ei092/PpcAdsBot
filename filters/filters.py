@@ -1,9 +1,9 @@
 from aiogram import Bot
 from aiogram.filters import BaseFilter
 from aiogram.types import Message
-from app.configuration.config import ConfigBot, load_config_bot
+from configuration.config import ConfigBot, load_config_bot
 from difflib import get_close_matches
-from app.lexicon.city import LIST_CITY
+from lexicon.city import LIST_CITY
 
 
 config: ConfigBot = load_config_bot()

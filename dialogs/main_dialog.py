@@ -9,8 +9,8 @@ from aiogram_dialog.widgets.input import TextInput, MessageInput
 from aiogram_dialog.widgets.kbd import Column, Next, Radio, Button, SwitchTo
 from aiogram_dialog.widgets.text import Const, Format
 
-from app.dialogs.getters.general_getters import get_data, pars_sitings
-from app.dialogs.handlers.general_handlers import (
+from dialogs.getters.general_getters import get_data, pars_sitings
+from dialogs.handlers.general_handlers import (
     correct_input_handler,
     no_text,
     error_handler,
@@ -18,8 +18,8 @@ from app.dialogs.handlers.general_handlers import (
     radio_clicked_general
 )
 
-from app.lexicon.lexicon import LEXICON, LEXICON_TRANSITION
-from app.utils.utils import requests_check, region_check
+from lexicon.lexicon import LEXICON, LEXICON_TRANSITION
+from utils.utils import requests_check, region_check
 
 
 logger = logging.getLogger(__name__)

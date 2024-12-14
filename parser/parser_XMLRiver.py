@@ -3,7 +3,7 @@ import time
 import requests
 import logging
 
-from app.configuration.config import ConfigBot, load_config_bot
+from configuration.config import ConfigBot, load_config_bot
 
 
 logger = logging.getLogger(__name__)

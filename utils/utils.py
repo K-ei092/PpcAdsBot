@@ -1,5 +1,5 @@
 from difflib import get_close_matches
-from app.lexicon.city import LIST_CITY
+from lexicon.city import LIST_CITY
 
 
 # Проверка запроса на то, что он содержит не более 3 ключевых фраз, разделённых запятыми

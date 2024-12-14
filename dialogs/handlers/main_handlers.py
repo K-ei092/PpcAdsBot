@@ -3,9 +3,9 @@ from aiogram.types import Message, FSInputFile
 from aiogram.filters import CommandStart, Command
 from aiogram_dialog import DialogManager, StartMode
 
-from app.dialogs.main_dialog import DialogSG
-from app.filters.filters import IsPrivatChat, IsSubscriber
-from app.lexicon.lexicon import LEXICON
+from dialogs.main_dialog import DialogSG
+from filters.filters import IsPrivatChat, IsSubscriber
+from lexicon.lexicon import LEXICON
 
 
 router = Router()
