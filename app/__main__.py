@@ -28,7 +28,7 @@ async def main():
 
     # Конфигурируем логирование
     logging.basicConfig(
-        level=logging.DEBUG,                             # настройка - DEBUG, production - WARNING
+        level=logging.WARNING,                             # настройка - DEBUG, production - WARNING
         filename=log_name,                               # добавляем логи в файл
         filemode='w',                                      # режим записи (a - добавить, w - переписать)
         format='%(filename)s:%(lineno)d #%(levelname)-8s '
